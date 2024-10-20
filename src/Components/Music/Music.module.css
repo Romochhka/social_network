@@ -1,4 +1,27 @@
-.content {
-    grid-area: c;
-    background: blueviolet;
+.messages-container {
+    display: flex;
+}
+
+.user-list {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+}
+
+.user-list div {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chat-window {
+    padding: 20px;
+    flex: 1;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.my-message {
+    text-align: right;
 }

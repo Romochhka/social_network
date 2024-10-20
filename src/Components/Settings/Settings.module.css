@@ -1,4 +1,32 @@
-.content {
-    grid-area: c;
-    background: blueviolet;
+.settings-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.settings-option {
+    margin-bottom: 20px;
+}
+
+.settings-option label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.settings-option input,
+.settings-option select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
 }

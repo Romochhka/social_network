@@ -1,16 +1,52 @@
-.content {
-    grid-area: c;
-    background: blueviolet;
+.profile-container {
+    width: 800px;
+    margin: 0 auto;
 }
 
-.content img {
-    width: 750px;
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.DescriptionBlock {
+.profile-avatar {
+    width: 50px;  /* Adjust the size to your needs */
+    height: 100px; /* Make it a square */
+    border-radius: 50%; /* Circular avatar */
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.profile-status {
+    color: gray;
+    font-style: italic;
+}
+
+.profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-actions button {
     padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
-.item {
-color: darkolivegreen;
 
+.profile-actions button:hover {
+    background-color: #0056b3;
+}
+
+.profile-details {
+    margin-top: 20px;
+}
+
+.profile-details p {
+    margin: 5px 0;
 }
